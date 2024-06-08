@@ -4,3 +4,9 @@ Site: relston.github.io
 ```bash
 bundle exec jekyll serve
 ```
+
+Reference the theme
+```bash
+code $(bundle show minima)
+```
+
