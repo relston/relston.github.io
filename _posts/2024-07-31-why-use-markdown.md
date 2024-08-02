@@ -100,7 +100,7 @@ Markdown files integrate well with version control systems like Git, making it e
 Embedding metadata within your Markdown files can improve the efficiency of organizing and finding documents. Custom tags make it feasible to dynamically organize content beyond simple file hierarchies.
 
 #### AI Ready
-Once I got familiar with the incredible ecosystem around markdown it's easy to see why its simplicity markdown documents so flexible and powerful. But the main reason that has gotten me so fired up about markdown is this: Markdown is **AI ready!**
+Once I got familiar with the incredible ecosystem around markdown it's easy to see why markdown is so flexible and powerful. But the main reason I'm so fired up about markdown is this: Markdown is **AI ready!**
 
 All of the qualities that make plain text markdown files so easy to search and index also make it the perfect medium for any AI use cases you might have. Literally any other knowledge source would require some sort of conversion to be used with LLMs. But with markdown, you can use it as is.
 
