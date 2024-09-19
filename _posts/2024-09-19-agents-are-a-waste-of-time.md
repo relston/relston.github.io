@@ -5,17 +5,17 @@ date:   2024-09-18 10:14:32 -0600
 categories: ai llm agents productivity tools
 ---
 
-This is not click bate. Will not change my tone in this post. I will defend that statement and I will double down. Creating and using "Agents" for any personal LLM use cases is a waste of time. I will show you why and provide a simple alternative that is more effective, efficient, and we will all have a good laugh at the end.
+This is not clickbait. Will not change my tone in this post. I will defend that statement and I will double down. Creating and using "Agents" for any personal LLM use cases is a waste of time. I will show you why, and provide a simple alternative that is more effective, efficient, and we will all have a good laugh at the end.
 
 # Agentic Frameworks?
-I will admit, it is a cool idea. LLMs work well when given _personas_; and we're clearly seeing a trend of _specialization_ in AI models. So, like a team of individuals in a company, why not have LLMs work together as a team of `Agents`? Frameworks have popped up all over to help script togethers these types of workflows. There are plenty of anecdotal studies that show better results are possible when composing models like this. 
+I will admit, it is a cool idea. LLMs work well when given _personas_; and we're clearly seeing a trend of _specialization_ in AI models. So, like a team of individuals in a company, why not have LLMs work together as a team of `Agents`? Frameworks have popped up all over to help script together these types of workflows. There are plenty of anecdotal evidence that show better results are possible when composing models like this. 
 
 **Don't fall for it.**
 
 There are NO credible professional use cases for this yet. [This excellent article by YourGPT](https://yourgpt.ai/blog/general/agentic-frameworks-limitations-business-automation) gets to the heart of this better than I can. But what about personal use cases?
 
 # Let's create some agents
-Consider this video from Mathew Berman, a popular AI influencer, who is trying to set up a "Team of AI agents" in [CrewAI](https://www.crewai.com/) to do the following task:
+Consider this video from Matthew Berman, a popular AI influencer, who is trying to set up a "Team of AI agents" in [CrewAI](https://www.crewai.com/) to do the following task:
 
 > I want to create a crew for personal use. Many ask about real-world uses for AI agents, and I'll show you today. I collect AI news links weekly and now produce a more frequent newsletter. I aim to have a crew that summarizes each article for my newsletter, saving me time.
       
@@ -26,15 +26,14 @@ Sounds great. Let's see how it goes.
 </div>
 
 If you don't have time to watch the full hour video here is a summary with timestamps:
-
 - 3:34 - Fumbling with dependency management
 - 8:00 - Setting up personas for the writer and summarizer agents
 - 12:00 - Defining the two tasks that make up the steps of the process
-- 14:00 - First try at running the agents - oops the references tools for the agents are not defined
+- 14:00 - First try at running the agents - Oops the referenced tools for the agents are not defined
 - 14:20 - "This isn't documented at all"
-- 15:40 - Mathew not an expert with python import syntax
-- 16:60 - It started, but still not configured right - lets look at some examples
-- 18:00 - Examples have class structure - great, but not intuitive for non-programmers
+- 15:40 - Matthew not an expert with python import syntax
+- 16:00 - It started, but still not configured right - lets look at some examples
+- 18:00 - Examples have a class structure - great, but not intuitive for non-programmers
 - 21:00 - Wild copy pasting of code
 - 25:30 - Running it - Oops, `dedent` not defined
 - 27:47 - "I'm not quite sure this is going to work... I'm exposing my lack of experience with python here."
@@ -47,12 +46,12 @@ If you don't have time to watch the full hour video here is a summary with times
 - 45:30 - Site is blocking the request, lol - try setting a browser header? Still not working
 - 48:32 - "This is getting more complex then I was hoping"
 - 49:30 - New url works, hit the model token limit - scrapped too much content
-        - He is hard coding tag id's to isolate the article content
+        - He is hard coding tag ID's to isolate the article content
 - 53:40 - It's working, wow so easy!
 
-First of all, let me say this: I love Mathew Berman! 
+First of all, let me say this: I love Matthew Berman! 
 
-He is actually my favorite AI content creators, and one of the best sources for news and the latest AI tools on YouTube. If you haven't seen his channel you should check it out. What makes Mathew so relatable is that he is not an engineer, he is a power user. Seeking to leverage the latest AI tools to make his life easier. 
+He is actually my favorite AI content creator, and one of the best sources for news and the latest AI tools on YouTube. If you haven't seen his channel, you should check it out. What makes Matthew so relatable is that he is not an engineer, he is a power user. Seeking to leverage the latest AI tools to make his life easier. 
 
 _That's the point, right?_
 
@@ -172,7 +171,7 @@ For each of those alternates listed, get the official link to the service in eac
   - [Official Website](https://slapform.com)
 
 ```
-You see what just happened there? In one thread, _just two short prompts_, we got Mark to get a dataset from one link and then iterate on that set. We parsed though a set of links to extract more specific information to get a report of content. I only wrote two sentences and I'm way past Mathew and his full day of debugging his agentic framework. 
+You see what just happened there? In one thread, _just two short prompts_, we got Mark to get a dataset from one link and then iterate on that set. We parsed though a set of links to extract more specific information to get a report of content. I only wrote two sentences and I'm way past Matthew and his full day of debugging his agentic framework. 
 
 Lets look at another example using Mark. 
 
@@ -222,14 +221,14 @@ So with a simple shell command (whose output can be quickly formatted into a mar
 
 # The simple tools are better
 Agentic framworks are overkill for _personal use cases_ when they are:
-- a) one off tasks
-- b) frequent but simple tasks
-- c) frequent, complex but the details change each time
+- a) they are one-off tasks
+- b) they are frequent but simple tasks
+- c) they are frequent, complex but the details change each time.
 
 Yeah, that's **all of them**. Only some business processes are ever `frequent`, `complex` and `consistent` and Agents have failed to deliver in this arena so far. _Agents_ are a **_waste of time_**.
 
 # And now, the kicker
-Oh, and by the way... You know, you can script with [Mark](https://github.com/relston/mark) too, right?  It is not only possible, but objectively better than the CrewAI agentic framework example in the Mathew Burman video. Don't believe me?  Try it yourself. 
+Oh, and by the way... You know, you can script with [Mark](https://github.com/relston/mark) too, right?  It is not only possible, but objectively better than the CrewAI agentic framework example in the Matthew Burman video. Don't believe me?  Try it yourself. 
 
 _It will only take a few seconds._
 
@@ -265,7 +264,7 @@ The output
 That is a **one. line. command.** Simple linux piping to chain the two Mark request commands together. It does the EXACT same thing as the CrewAI example. Not only was it set up in two commands but it runs in a fraction of the time. 
 
 # Conclusion
-I hope you can appreciate how hilarious this Agentic Frameworks demo was so me. As an engineer, one of my pet peeves is _over-engineering_: Building out complex systems, but only solving simple problems. 
+I hope you can appreciate how hilarious this Agentic Framework demo was so me. As an engineer, one of my pet peeves is _over-engineering_: Building out complex systems, but only solving simple problems. 
 
 Agents are toys. They are fun ideas to play with. You could get some interesting results out of them. They are not for anyone who is serious about getting things done.
 
