@@ -9,4 +9,3 @@ Reference the theme
 ```bash
 code $(bundle show minima)
 ```
-

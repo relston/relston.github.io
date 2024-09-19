@@ -8,7 +8,7 @@ categories: ai llm agents productivity tools
 This is not click bate. Will not change my tone in this post. I will defend that statement and I will double down. Creating and using "Agents" for any personal LLM use cases is a waste of time. I will show you why and provide a simple alternative that is more effective, efficient, and we will all have a good laugh at the end.
 
 # Agentic Frameworks?
-I will admit, it is a cool idea. LLMs work well when given _personas_; and we're clearly seeing a trend of _specialization_ in AI models. So, like a team of individuals in a company, why not have LLMs work together as a team of `Agents`? Frameworks have popped up all over to help script togethers these types of workflows. There are plenty of anecdotal studies that show that better results are possible when composing models like this. 
+I will admit, it is a cool idea. LLMs work well when given _personas_; and we're clearly seeing a trend of _specialization_ in AI models. So, like a team of individuals in a company, why not have LLMs work together as a team of `Agents`? Frameworks have popped up all over to help script togethers these types of workflows. There are plenty of anecdotal studies that show better results are possible when composing models like this. 
 
 **Don't fall for it.**
 
@@ -21,7 +21,9 @@ Consider this video from Mathew Berman, a popular AI influencer, who is trying t
       
 Sounds great. Let's see how it goes.
 
-https://www.youtube.com/watch?v=8R7QOJgGyIQ
+<div class='center'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8R7QOJgGyIQ?si=vMIEIQO0knmVanwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 If you don't have time to watch the full hour video here is a summary with timestamps:
 
@@ -60,7 +62,9 @@ But wow, what a nightmare. You can tell that hour long video was cut way down, p
 
 Sure. Reminds me of this XKCD comic...
 
-![img](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
+<div class='center'>
+    <img alt='Is it work your time?' src='https://imgs.xkcd.com/comics/is_it_worth_the_time.png'>
+</div>
 
 But those time savings are compared to what? Manually reading each article and writing a summary? Totally. But what if I told you there was a manual tool available that makes tasks like this so effortless, so natural, so intuitive, that using it each time would be faster then running a completed agentic script every time?
 
