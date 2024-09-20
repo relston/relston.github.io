@@ -2,17 +2,19 @@
 layout: post
 title:  Agentic frameworks are a waste of time
 date:   2024-09-18 10:14:32 -0600
-categories: ai llm agents productivity tools
+categories: ai llm tools productivity agents 
 ---
 
-This is not clickbait. Will not change my tone in this post. I will defend that statement and I will double down. Creating and using "Agents" for any personal LLM use cases is a waste of time. I will show you why, and provide a simple alternative that is more effective, efficient, and we will all have a good laugh at the end.
+This is not clickbait. I will defend that statement and I will double down. Trying to use this Multi-Agent Framworks for personal productivity LLM use cases is a waste of time. I will show you why, and provide a simple alternative that is more effective, efficient, and we will all have a good laugh at the end.
 
 # Agentic Frameworks?
-I will admit, it is a cool idea. LLMs work well when given _personas_; and we're clearly seeing a trend of _specialization_ in AI models. So, like a team of individuals in a company, why not have LLMs work together as a team of `Agents`? Frameworks have popped up all over to help script together these types of workflows. There are plenty of anecdotal evidence that show better results are possible when composing models like this. 
+I will admit, it is a cool idea. LLMs work well when given _personas_; and we're clearly seeing a trend of _specialization_ in AI models. So, like a team of individuals in a company, why not have LLMs work together as a team of `Agents`? [Many popular frameworks](https://www.analyticsvidhya.com/blog/2024/07/ai-agent-frameworks/) have risen help script together these types of workflows. There is plenty of anecdotal evidence that show better results are possible when composing models like this. 
 
 **Don't fall for it.**
 
-There are NO credible professional use cases for this yet. [This excellent article by YourGPT](https://yourgpt.ai/blog/general/agentic-frameworks-limitations-business-automation) gets to the heart of this better than I can. But what about personal use cases?
+It's been a rough road so far trying to find a play to apply these framworks for professional use cases. [This excellent article by YourGPT](https://yourgpt.ai/blog/general/agentic-frameworks-limitations-business-automation) gets to the heart of this better than I can. 
+
+_But what about personal use cases?_
 
 # Let's create some agents
 Consider this video from Matthew Berman, a popular AI influencer, who is trying to set up a "Team of AI agents" in [CrewAI](https://www.crewai.com/) to do the following task:
