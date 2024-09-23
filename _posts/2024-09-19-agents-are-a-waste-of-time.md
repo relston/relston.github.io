@@ -12,7 +12,7 @@ I will admit, it is a cool idea. LLMs work well when given _personas_; and we're
 
 **Don't fall for it.**
 
-It's been a rough road so far trying to find a play to apply these framworks for professional use cases. [This excellent article by YourGPT](https://yourgpt.ai/blog/general/agentic-frameworks-limitations-business-automation) gets to the heart of this better than I can. 
+It's been a rough road so far trying to find professional use cases where these multi-agent frameworks work well. [This excellent article by YourGPT](https://yourgpt.ai/blog/general/agentic-frameworks-limitations-business-automation) gets to the heart of this better than I can. 
 
 _But what about personal use cases?_
 
@@ -64,7 +64,11 @@ But wow, what a nightmare. You can tell that hour long video was cut way down, p
 Sure. Reminds me of this XKCD comic...
 
 <div class='center'>
-    <img alt='Is it work your time?' src='https://imgs.xkcd.com/comics/is_it_worth_the_time.png'>
+    <a href='https://xkcd.com/1205/'>
+    <img alt='Is it work your time?' src='https://imgs.xkcd.com/comics/is_it_worth_the_time.png'><br />
+    Is it worth your time?
+    </a>
+
 </div>
 
 But those time savings are compared to what? Manually reading each article and writing a summary? Totally. But what if I told you there was a manual tool available that makes tasks like this so effortless, so natural, so intuitive, that using it each time would be faster then running a completed agentic script every time?
