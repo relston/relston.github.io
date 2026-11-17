@@ -28,6 +28,9 @@ twitter_username: ryanelston
 github_username:  relston
 # Build settings
 theme: minima
+# Only show these pages in the site header (exclude google-tasks-tui legal pages).
+header_pages:
+  - about.md
 plugins:
   - jekyll-feed
 
