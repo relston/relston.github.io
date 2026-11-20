@@ -23,7 +23,7 @@ email: ryan@ryanelston.com
 description: >- 
   Projects tinkering and Musings from an engineer that can't hold still. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://relston.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ryanelston.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ryanelston
 github_username:  relston
 # Build settings
